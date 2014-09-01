@@ -2,8 +2,19 @@
 jQuery(document).ready(function ($) {
 
 
+$(window).load(function() {
+    $(".loader").fadeOut("slow");
+})
+
+
 //BX Slider
 jQuery(document).ready(function(){
+
+
+
+
+
+
     jQuery('.bxslider').bxSlider({
     //mode: 'horizontal',
     mode: 'fade',

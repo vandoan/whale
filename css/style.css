@@ -40,6 +40,18 @@ html,body{
 }
 
        
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    opacity:.9;
+    height: 100%;
+    z-index: 9999;
+    background: url('../images/gear.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+
 .logo:hover .me2{
             visibility: visible;}
 
